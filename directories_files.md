@@ -15,6 +15,7 @@
 ### 1KB
   Block size = 1024B
   1024B / 4 = 256
+
   Direct = 10 * 1024B = 10.240
   Single = 256 * 1024B = 262.144B
   Double = 256^2 * 1024B = 67.108.864B
@@ -28,7 +29,7 @@
   Direct = 10 * 4096B = 40960B
   Single = 1024B * 4096B = 4194304B
   Double = 1024B^2 * 4096B = 4294967296B
-  Triple = 1024B^3 * 4096B =
+  Triple = 1024B^3 * 4096B = 4.398.046.511.104 
   Max size = Direct + Single + Double + Triple = 4.402.345.713.664B ~ 4GB
   ******
 
