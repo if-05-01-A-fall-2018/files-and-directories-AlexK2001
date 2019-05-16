@@ -10,7 +10,7 @@
 
 3. **UFS (i-node) File Size**
 * 32 Bit block numbers = 4Bytes
-###1KB
+### 1KB
   Block size = 1024B
   1024B / 4 = 256
   Direct = 10 * 1024B = 10.240
@@ -19,7 +19,7 @@
   Triple = 256^3 * 1024B = 17.179.869.184B
   Max size = Direct + Single + Double + Triple = 17.247.250.432B ~ 16GB
 
-###4KB
+### 4KB
   Block size = 4096B
   32 / 8 = 4
   4096B / 4 = 1024B
