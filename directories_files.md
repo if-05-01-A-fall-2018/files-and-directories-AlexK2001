@@ -3,10 +3,12 @@
 * 262.144.000
 * 2^(16) = 65536 B; 2^(32) = 4,3 Mrd. B => The table entry has a size of 32 Bit.
 * 262.144.000 Blöcke * 32 Bit / 8 Bit = 1.048.576.000 => The finally size is 1000 MB.
+******
 
 2. **Random Access of Files**
 * a
 * 107.834.590 Position; Block size = 1024 => 107.834.590 / 1024 ~ 105.308 You have to skip to the block 105.308
+******
 
 3. **UFS (i-node) File Size**
 * 32 Bit block numbers = 4Bytes
@@ -28,6 +30,7 @@
   Double = 1024B^2 * 4096B = 4294967296B
   Triple = 1024B^3 * 4096B =
   Max size = Direct + Single + Double + Triple = 4.402.345.713.664B ~ 4GB
+  ******
 
 4. **UFS File Size**
   disk Block size 512B
